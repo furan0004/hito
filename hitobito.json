@@ -8,6 +8,7 @@
     ],
 
     "appearance": {
+        "favicon": null,
         "icon": "https://pbs.twimg.com/profile_images/1508527911917453312/6FJbpBRm_400x400.jpg",
         "background": "yellow"
     },
