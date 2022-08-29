@@ -2,9 +2,16 @@
     <body></body>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
-        
-        <script type="module" src="./index.js"></script>
+        <script type="module">
+            import { ProfilePage } from "https://utils.kurosaki.love/lib/ProfilePageBuilder/builder.js";
+
+            /* Path of the JSON file with your profile information */
+            const path = "https://link.htbt.art/hitobito.json";
+
+            var profile = new ProfilePage(path);
+            profile.complete();
+
+        </script>
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLZNR6DDTP"></script>
