@@ -1,4 +1,7 @@
-import { buildPage } from "https://utils.kurosaki.love/litlinkcopy/pagebuild.js";
-import hitobitoData from "./hitobito.json" assert {type: "json"};
+import { ProfilePage } from "https://utils.kurosaki.love/lib/ProfilePageBuilder/builder.js";
 
-buildPage(hitobitoData);
+/* jsonのURL */
+const path = "https://link.htbt.art/hitobito.json";
+
+var profile = new ProfilePage(path);
+profile.complete();
